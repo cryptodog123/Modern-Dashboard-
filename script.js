@@ -119,7 +119,7 @@ const configBar = {
         text: "Monthly Revenue",
         color: "rgb(210,210,210)",
         font: {
-          size: 20,
+          size: 12,
         },
       },
       legend: {
@@ -159,7 +159,7 @@ const dataDough = {
       label: "Advertising",
       data: [65, 35],
       backgroundColor: [gradientDough1, gradientDough2],
-      hoverOffset: 4,
+      hoverOffset: 3,
       weight: [0.1],
       borderWidth: 0,
     },
@@ -175,11 +175,11 @@ const configDough = {
         display: true,
         color: "rgb(210,210,210)",
         labels: {
-          padding: 20,
-          boxWidth: 12,
-          padding: 15,
+          padding: 10,
+          boxWidth: 8,
+          padding: 8,
           font: {
-            size: 15,
+            size: 10,
           },
         },
       },
@@ -188,11 +188,11 @@ const configDough = {
         text: "Advertising Expense",
         color: "rgb(210,210,210)",
         font: {
-          size: 20,
+          size: 15,
         },
       },
     },
-    cutout: "70%",
+    cutout: "80%",
   },
 };
 

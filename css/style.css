@@ -16,7 +16,6 @@ body {
   background: -webkit-linear-gradient(top left, #05b694, #031f59);
   background: -moz-linear-gradient(top left, #05b694, #031f59);
   background: linear-gradient(to bottom right, #05b694, #031f59);
-  padding: 2rem;
   font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
 
 .container {
@@ -41,18 +40,18 @@ body {
     justify-content: space-between;
     align-items: center; }
     .header-left h1 {
-      font-size: 5rem;
+      font-size: 3rem;
       color: #aea2a2;
       opacity: 0.7; }
     .header-left .search-container {
       position: relative; }
     .header-left input {
-      width: 40rem;
-      height: 3.5rem;
+      width: 30.5rem;
+      height: 2.8rem;
       border-radius: 2px;
       background: transparent;
       border: 2px solid rgba(98, 95, 95, 0.2);
-      padding: 2rem;
+      padding: 1.5rem;
       color: #aea2a2; }
       .header-left input::placeholder {
         color: #aea2a2;
@@ -60,7 +59,7 @@ body {
         font-weight: 600; }
     .header-left i {
       position: absolute;
-      font-size: 2rem;
+      font-size: 1.5rem;
       right: 2rem;
       top: 1rem;
       z-index: 10;
@@ -71,13 +70,13 @@ body {
     align-items: center;
     justify-content: flex-end; }
     .header-right span {
-      font-size: 2rem;
+      font-size: 1.5rem;
       color: #aea2a2;
       margin-right: 5rem; }
       .header-right span:last-child {
         margin-right: 2rem; }
     .header-right i {
-      font-size: 2rem;
+      font-size: 1.5rem;
       right: 2rem;
       top: 1rem;
       z-index: 10;
@@ -90,7 +89,7 @@ body {
 
 .sidebar {
   position: relative;
-  flex: 0 0 18%;
+  flex: 0 0 16%;
   background: #191c2f;
   background: -webkit-linear-gradient(bottom, #191c2f, #091328);
   background: -moz-linear-gradient(bottom, #191c2f, #091328);
@@ -99,34 +98,34 @@ body {
   flex-direction: column; }
   .sidebar .profile {
     position: relative;
-    padding: 3rem 2rem;
+    padding: 2rem 1.5rem;
     flex: 0 0 23%;
     display: flex;
     background-color: #232742;
-    gap: 1rem;
+    gap: 0.7rem;
     flex-direction: column; }
     .sidebar .profile .user-info {
       display: flex;
-      gap: 1rem; }
+      gap: 0.7rem; }
     .sidebar .profile .user-name {
-      font-size: 1.5rem;
-      padding-top: 0.5rem;
+      font-size: 1.1em;
+      padding-top: 0.3rem;
       color: #dad9d9;
       font-weight: 500; }
       .sidebar .profile .user-name span {
         font-weight: 500;
-        font-size: 1.2rem; }
+        font-size: 1.1rem; }
     .sidebar .profile img {
-      height: 5rem;
+      height: 3.5rem;
       border-radius: 1rem; }
     .sidebar .profile .credit-score p {
       width: fit-content;
       margin: 0 auto;
-      padding: 0.75rem;
+      padding: 0.5rem;
       border-radius: 10px;
       color: #dad9d9;
       text-align: center;
-      font-size: 1.2rem;
+      font-size: 1rem;
       background-color: #2a3059; }
   .sidebar .balance-display {
     display: flex;
@@ -137,31 +136,31 @@ body {
     width: 100%;
     left: 0;
     background-color: #363e70;
-    padding: 2rem 0; }
+    padding: 1.5rem 0; }
     .sidebar .balance-display p {
-      font-size: 1.5rem;
+      font-size: 1rem;
       color: #dad9d9;
       opacity: 0.75;
       font-weight: 600; }
     .sidebar .balance-display span {
-      font-size: 2rem;
+      font-size: 1.25rem;
       color: #dad9d9;
       font-weight: 700; }
   .sidebar .nav-list {
     display: flex;
     flex-direction: column;
-    padding: 4rem 3rem 0 0; }
+    padding: 1.25rem 2rem 0 0; }
     .sidebar .nav-list li {
-      font-size: 2rem;
+      font-size: 1.5rem;
       color: #aea2a2;
       width: 100%;
-      padding-left: 4rem;
-      height: 6rem;
+      padding-left: 3rem;
+      height: 5rem;
       display: flex;
       align-items: center;
       cursor: pointer; }
       .sidebar .nav-list li i {
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: rgba(176, 185, 232, 0.99);
         margin-right: 0.75rem; }
       .sidebar .nav-list li:hover {
@@ -171,20 +170,20 @@ body {
     position: absolute;
     flex: 0 0 10%;
     width: 100%;
-    height: 6rem;
+    height: 5rem;
     display: flex;
     align-items: center;
     bottom: 0;
     left: 0;
-    font-size: 1.8rem;
-    padding: 1rem 4rem;
+    font-size: 1.4rem;
+    padding: 1rem 3rem;
     border-top: 2px solid rgba(255, 255, 255, 0.05);
     color: #aea2a2;
     opacity: 0.75; }
     .sidebar .logout p {
       cursor: pointer; }
       .sidebar .logout p i {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         color: rgba(176, 185, 232, 0.99);
         margin-right: 0.75rem; }
 
@@ -193,9 +192,9 @@ body {
   background: #0f0f18; }
   .main-header {
     width: 100%;
-    height: 7rem;
-    padding-left: 3rem;
-    font-size: 1.8rem;
+    height: 4.5rem;
+    padding-left: 1.75rem;
+    font-size: 1.2rem;
     display: flex;
     align-items: center;
     color: #dad9d9;
@@ -207,20 +206,21 @@ body {
     display: flex;
     flex-direction: column;
     flex: 0 0 80%;
+    padding-bottom: 1.5rem;
     height: 100%; }
     .main-large .data-summary {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      flex: 0 0 20%;
-      column-gap: 3rem;
-      padding: 2rem;
+      flex: 0 0 22%;
+      column-gap: 2rem;
+      padding: 1.5rem;
       padding-top: 0; }
       .main-large .data-summary .summary-tab {
         border-radius: 1rem;
         position: relative;
         border-top-right-radius: 1.5rem;
         border-top-left-radius: 1.5rem;
-        height: 95%; }
+        height: 100%; }
         .main-large .data-summary .summary-tab-1 {
           background: #449bb4;
           background: -webkit-linear-gradient(top left, #449bb4, #1da0a7);
@@ -243,7 +243,7 @@ body {
           background: linear-gradient(to bottom right, #1f2843, #1e2456); }
         .main-large .data-summary .summary-tab .summary-top {
           display: flex;
-          padding: 2rem;
+          padding: 1rem;
           justify-content: space-between;
           height: 70%;
           border-radius: 1rem;
@@ -252,9 +252,12 @@ body {
           background: -moz-linear-gradient(top left, #202040, #151a30);
           background: linear-gradient(to bottom right, #202040, #151a30); }
           .main-large .data-summary .summary-tab .summary-top .top-info {
-            color: #dad9d9; }
+            color: #dad9d9;
+            padding-left: 1.5rem;
+            padding-top: 0.25rem;
+            height: 100%; }
             .main-large .data-summary .summary-tab .summary-top .top-info h3 {
-              font-size: 1.6rem;
+              font-size: 1.2rem;
               font-weight: 400;
               padding-bottom: 0.5rem; }
             .main-large .data-summary .summary-tab .summary-top .top-info p {
@@ -262,19 +265,19 @@ body {
               font-size: 1.2rem;
               text-transform: capitalize;
               align-items: center;
-              gap: 1rem; }
+              gap: 0.75rem; }
               .main-large .data-summary .summary-tab .summary-top .top-info p span {
-                font-size: 2.6rem; }
+                font-size: 1.75em; }
           .main-large .data-summary .summary-tab .summary-top .fa {
-            font-size: 3.5rem;
+            font-size: 2.4rem;
             background: linear-gradient(to bottom right, #4eb2cd, #21b4bc);
             border-radius: 1.5rem;
             color: #dad9d9;
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 6rem;
-            width: 6rem;
+            height: 4.5rem;
+            width: 4.5rem;
             opacity: 0.9; }
             .main-large .data-summary .summary-tab .summary-top .fa-1 {
               background: #449bb4;
@@ -298,24 +301,24 @@ body {
               background: linear-gradient(to bottom right, #1f2843, #1e2456); }
         .main-large .data-summary .summary-tab .data-money {
           position: absolute;
-          bottom: 1rem;
+          bottom: 0.7rem;
           right: 2rem;
-          font-size: 2rem;
+          font-size: 1.4rem;
           color: #dad9d9; }
   .main-small {
     flex: 1; }
 
 .main-data-container {
   display: grid;
-  padding: 0 2rem 8rem 2rem;
+  padding: 0 1.5rem 0 1.5rem;
   flex: 1;
-  grid-template-columns: 27.5rem 40rem 1fr;
-  gap: 3rem; }
+  grid-template-columns: 20rem 32rem 1fr;
+  gap: 2.2rem; }
   .main-data-container h3 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #dad9d9;
     border-bottom: 1px solid rgba(98, 95, 95, 0.2);
-    padding: 2.5rem; }
+    padding: 2rem; }
   .main-data-container .recent-transfers,
   .main-data-container .insights,
   .main-data-container .cards {
@@ -326,18 +329,18 @@ body {
     border-radius: 1.5rem;
     overflow: hidden; }
   .main-data-container .recent-transfers li {
-    padding: 1.5rem 0 1.5rem 2rem;
+    padding: 1rem 0 1rem 1.5rem;
     display: flex;
-    gap: 1rem;
+    gap: 0.75rem;
     align-items: center; }
     .main-data-container .recent-transfers li:not(:first-child) {
       border-top: 1px solid rgba(98, 95, 95, 0.2); }
     .main-data-container .recent-transfers li .transfer-info {
       color: #dad9d9; }
       .main-data-container .recent-transfers li .transfer-info p {
-        font-size: 1.5rem; }
+        font-size: 1.1rem; }
       .main-data-container .recent-transfers li .transfer-info span {
-        font-size: 1.2rem; }
+        font-size: 0.8rem; }
     .main-data-container .recent-transfers li img {
       width: 30px;
       height: 30px;
@@ -347,77 +350,79 @@ body {
   .main-data-container .cards .credit-card {
     margin: 0 auto;
     width: 90%;
-    height: 25rem;
+    height: 17rem;
     background: #2e3957;
     background: -webkit-linear-gradient(bottom right, #2e3957, #172147);
     background: -moz-linear-gradient(bottom right, #2e3957, #172147);
     background: linear-gradient(to top left, #2e3957, #172147);
-    border-radius: 3rem;
+    border-radius: 2rem;
     color: #dad9d9;
-    padding: 2rem;
-    padding-top: 1rem;
-    margin-bottom: 2rem; }
+    padding: 1.75rem;
+    padding-top: 0.75rem;
+    margin-bottom: 1.5rem; }
     .main-data-container .cards .credit-card .card-top {
       height: 50%;
       display: flex;
-      padding: 0 1.5rem 0 0rem;
+      padding: 0 1rem 0 0rem;
       justify-content: space-between;
       align-items: center; }
       .main-data-container .cards .credit-card .card-top i {
-        font-size: 6rem;
+        font-size: 4rem;
         color: #fcdf26;
         opacity: 0.75; }
       .main-data-container .cards .credit-card .card-top h4 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 400; }
     .main-data-container .cards .credit-card .card-bottom {
-      padding-top: 1.75rem;
+      padding-top: 1.5rem;
       height: 50%;
       position: relative; }
       .main-data-container .cards .credit-card .card-bottom .card-number {
-        font-size: 2.5rem;
-        margin-bottom: 2rem; }
+        font-size: 2rem;
+        margin-bottom: 1.5rem; }
       .main-data-container .cards .credit-card .card-bottom .card-owner {
-        font-size: 1.8rem; }
+        font-size: 1.3rem; }
       .main-data-container .cards .credit-card .card-bottom span {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         position: absolute;
-        bottom: 1.5rem;
-        right: 1.5rem; }
+        bottom: 1.2rem;
+        right: 1.2rem; }
 
 .main-small {
   background: #0f0f18;
   background: -webkit-linear-gradient(top left, #202040, #151a30);
   background: -moz-linear-gradient(top left, #202040, #151a30);
   background: linear-gradient(to bottom right, #202040, #151a30);
-  margin-right: 2rem;
-  border-radius: 1.5rem;
-  height: 79.8rem; }
+  margin-right: 1.5rem;
+  border-radius: 1.3rem;
+  height: 97.5%; }
   .main-small h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #dad9d9; }
   .main-small li {
     position: relative;
     width: 100%;
-    padding: 1.25rem 2rem;
+    padding: 1rem 1.75rem;
     border-bottom: 1px solid rgba(98, 95, 95, 0.2); }
     .main-small li .description {
-      font-size: 1.4rem;
-      color: #dad9d9;
-      margin-bottom: 1rem; }
-    .main-small li .date {
       font-size: 1rem;
+      color: #dad9d9;
+      margin-bottom: 0.75rem; }
+    .main-small li .date {
+      font-size: 0.75rem;
       color: #dad9d9;
       opacity: 0.1rem;
       font-weight: 300; }
     .main-small li span {
       position: absolute;
-      right: 2rem;
-      font-size: 1.6rem;
-      top: 1.75rem; }
+      right: 1.4rem;
+      font-size: 1.4rem;
+      top: 1.4rem; }
     .main-small li .pos {
-      color: #39b844; }
+      color: #39b844;
+      font-size: 1.2rem; }
     .main-small li .neg {
+      font-size: 1.2rem;
       color: #bc2525; }
 
 .view-all {
@@ -427,8 +432,8 @@ body {
   background: linear-gradient(to top left, #3fb2bf, #018796);
   border: none;
   padding: 0.75rem 1.5rem;
-  font-size: 1.2rem;
-  border-radius: 2rem;
+  font-size: 1rem;
+  border-radius: 1.5rem;
   color: #dad9d9; }
 
 .header-item {
@@ -440,11 +445,11 @@ body {
   border-bottom: 1px solid rgba(98, 95, 95, 0.2); }
 
 .parentCanva {
-  padding: 1rem 1rem 0;
-  height: 32%; }
+  padding: 0.5rem 0.5rem 0;
+  height: 35%; }
 
 .parentCanva2 {
-  padding-top: 3rem;
-  height: 50%; }
+  padding-top: 2rem;
+  height: 44%; }
   .parentCanva2 canvas {
     margin: 0 auto; }
